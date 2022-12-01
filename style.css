@@ -1,0 +1,195 @@
+body {
+    margin: 0 auto;
+    padding: auto;
+}
+
+.main {
+    width: 100%;
+    min-height: 800px;
+    float: left;
+    background-image: url('https://t3.ftcdn.net/jpg/03/69/00/58/360_F_369005893_UYbUUUHDiB0HT7vs7EpO0JZ4vf830R5K.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.navbar {
+    width: 100%;
+    min-height: 60px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    min-width: 170px;
+    min-height: 60px;
+    float: left;
+}
+
+.logo_sty {
+    color: lightblue;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_st {
+    color: lightblue;
+    font-size: 20px;
+    display: flex;
+}
+
+.menu {
+    min-width: 500px;
+    min-height: 60px;
+    float: left;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.menu ul li a {
+    display: flex;
+    text-decoration: none;
+    color: gray;
+    padding: 6px;
+}
+
+.merkez {
+    width: 100%;
+    min-height: 740px;
+    float: left;
+    background-color: beige;
+}
+
+.merkez1 {
+    width: 100%;
+    min-height: 500px;
+    float: left;
+    background-image: url('https://t3.ftcdn.net/jpg/03/69/00/58/360_F_369005893_UYbUUUHDiB0HT7vs7EpO0JZ4vf830R5K.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.merkez1 span {
+    color: antiquewhite;
+    font-style: italic;
+    position: absolute;
+    top: 105px;
+    left: 600px;
+    font-size: 35px;
+    border-bottom: solid 2px gray;
+}
+
+.sp {
+    color: antiquewhite;
+    font-style: Arial;
+    position: absolute;
+    top: 230px;
+    left: 600px;
+    font-size: 35px;
+}
+
+.search {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border: solid gray;
+    float: left;
+    position: absolute;
+    top: 275px;
+    left: 575px;
+}
+
+.wrt {
+    color: gray;
+    font-size: 10px;
+    position: absolute;
+    top: 15px;
+    left: 105px;
+}
+
+.search2 {
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    float: right;
+}
+
+.icon_f {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: azure;
+}
+
+.footer {
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2 {
+    min-width: 200px;
+    min-height: 300px;
+    float: left;
+
+}
+
+.a_nick {
+    min-width: 200px;
+    min-height: 70px;
+    float: left;
+    font-size: 20px;
+    position: relative;
+    border: solid 2px gray;
+}
+
+.a_prfl {
+    width: 50px;
+    height: 50px;
+    float: right;
+    background-color: aquamarine;
+    border-radius: 50%;
+    margin-top: 10px;
+    background-image: url('https://www.eas.az/wp-content/uploads/2022/04/Mehriban-Khaki.-teacher-librarian.primaryJPG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid gray;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.a_wrt {
+    width: 200px;
+    height: 230px;
+    float: left;
+    border: solid 2px gray;
+}
+
+.a_nick2 {
+    min-width: 145px;
+    min-height: 70px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
